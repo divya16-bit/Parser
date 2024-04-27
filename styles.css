@@ -1,0 +1,57 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ background: #333;
+ color: #fff;
+ font-family: Sans-Serif;
+}
+.title {
+	color: #5C6AC4;
+}
+form{
+  padding: 20px;
+  background: #27282c;
+  border-radius: 20px;
+  box-shadow: 0 0 35px #27282c;
+}
+.drop-zone{
+  border: 2px dashed #444;
+  padding: 20px;
+  width: 400px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.drop-zone p{
+  font-size: 25px;
+}
+.drop-zone span{
+  font-size: 40px;
+  margin: 20px;
+}
+#fileInfo{
+  padding: 15px;
+  border: 2px dashed #444;
+  border-radius: 10px;
+  color: aquamarine;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
+#submit{
+  padding: 12px;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  background: rgb(50, 151, 118);
+  color: #fff;
+  border: none;
+  outline: none;
+}

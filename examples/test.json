@@ -1,0 +1,12 @@
+{
+    "persons": [
+        {
+            "name": "Shyam",
+            "cars":["Ford", "BMW", "Fiat"]
+        },
+        {
+            "name": "Bob",
+            "cars":["Jaguar", "BMW"]
+        }
+    ]
+}
